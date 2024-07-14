@@ -20,7 +20,7 @@ WORKDIR /app
 RUN pip3 install --no-cache-dir -e .
 
 # Expose the desired port
-EXPOSE 8000
+EXPOSE 8005
 
 # Run the server
-CMD ["python", "server.py", "--host", "0.0.0.0" ,"--port", "8000"]
+CMD ["python", "server.py", "--host", "0.0.0.0" ,"--port", "8005"]
